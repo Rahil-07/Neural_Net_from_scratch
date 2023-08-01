@@ -31,7 +31,9 @@ To run the neural network and train the model, follow these steps:
 
 ## Model Architecture
 
-The neural network architecture can be customized by adjusting the `layer_info` list in the `layer_initialization` function. This list specifies the number of neurons in each layer and the activation function for each layer. i.e. :
+The neural network architecture can be customized by adjusting the `layer_info` list in the `layer_initialization` function. This list specifies the number of neurons in each layer and the activation function for each layer. 
+
+i.e. :
 
 - Input Layer: 12288 neurons (no. of pixel of image)      ##do not include Input Layer in layer_info
 - Hidden Layer 1: 16 neurons with ReLU activation
